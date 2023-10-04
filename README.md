@@ -10,3 +10,4 @@ Live Session - 1
 2.Tools Used:
     ->Google Chrome
     ->VS Code, Extensions: Bracket Pair Colorization Toggler, Git Lens, Prettier-code formatter, vscode icons, Emmet 
+3.what is CDN?
