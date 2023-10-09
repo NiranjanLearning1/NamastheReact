@@ -3,7 +3,7 @@ Here,  i will be doing some react assignments
 
 
 
-Live Session - 1
+Chapter - 1
 
 1.what is Emmet? Read About Emmet?
 
@@ -11,3 +11,13 @@ Live Session - 1
     ->Google Chrome
     ->VS Code, Extensions: Bracket Pair Colorization Toggler, Git Lens, Prettier-code formatter, vscode icons, Emmet 
 3.what is CDN?
+
+4. React createElement, ReactDom createRoot 
+5. async vs defer
+
+
+Chapter - 2 Igniting the APP
+
+1.package-lock.json
+
+
