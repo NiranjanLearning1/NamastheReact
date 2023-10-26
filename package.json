@@ -4,6 +4,8 @@
   "description": "react exploration",
   "main": "App.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,11 +19,16 @@
   },
   "homepage": "https://github.com/NiranjanLearning1/NamastheReact#readme",
   "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "parcel": "^2.9.3",
     "process": "^0.11.10"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
 }
