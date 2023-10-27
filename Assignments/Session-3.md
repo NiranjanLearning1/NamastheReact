@@ -1,4 +1,5 @@
 # Laying the Foundation
 
 
-babel-plugin-transform-remove-console
+- babel-plugin-transform-remove-console
+- React Key Reconcilation
