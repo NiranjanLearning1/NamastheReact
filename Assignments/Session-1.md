@@ -12,5 +12,5 @@
         - Emmet
 3. what is CDN?
 
-4. React createElement, ReactDom createRoot
+4. React.createElement, ReactDom.createRoot
 5. async vs defer

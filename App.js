@@ -1,10 +1,17 @@
-import React from "react";
-import{ ReactDOM}  from "react-dom/client";
+import React, { Fragment } from "react";
+import ReactDOM  from "react-dom/client";
 
 
 
-const heading = React.createElement("h1",{id:"heading", class:"h1"}, "Namste EveryOne");
+const Title = ()=>(
+<h1 className="h1">Namaste React</h1>
+);
 
+const HeaderComponent = ()=> (<div>
+    <Title/>
+    <h1>Namste React Header Component</h1>
+    <h2>Namste React Header 2 Component</h2>
+</div>);
 
-const root= ReactDom.createRoot(document.getElementById("root"));
-root.render(heading);
+const root= ReactDOM.createRoot(document.getElementById("root"));
+root.render(<HeaderComponent/>);
