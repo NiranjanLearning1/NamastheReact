@@ -1,3 +1,16 @@
-*{
-    background-color: red;
+.header{
+    display: flex; /* to fit in one line*/
+    justify-content: space-between; /* it adds space between the elements*/
+    margin:10px;
+    border: 1px solid black;
+
+}
+
+.nav-items > ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-items > ul > li{
+    padding: 10px;
 }
